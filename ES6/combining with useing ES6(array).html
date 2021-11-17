@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+
+
+let shopping_cart=["mobile","bag","charger"];
+let shopping_missing_cart=["Tempper-glass","cover","ear-phones"];
+
+// combine => use concat key word
+//let result=shopping_cart.concat(shopping_missing_cart)
+
+//=================================================
+
+/*extract  => useing ((slice)) key word this will combine both array and then 
+what datas or what items we need it can open the particlur */
+
+//  let results=result.slice(1,3)
+//=============================================================
+
+
+// spread operator this will copy the the both array and it will peast with new variable to store
+// this is ES6 and it will used in react and angular
+
+let result=[...shopping_cart,...shopping_missing_cart]
+
+console.log(result);
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

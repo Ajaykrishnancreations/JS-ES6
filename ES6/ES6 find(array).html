@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        let order=[
+    {id:1,name:"Mobile",cost:5000},
+    {id:2,name:"Tab",cost:5000},
+    {id:3,name:"Tv",cost:5000},
+];
+
+/*  normal method
+
+let result=order.find(function(order){
+    return order.name==="Tv"
+})  
+                */
+
+//ES6 method
+
+// syntex for ES6 find
+// let res=order.find((order)=>. iteams name === "" )
+
+let result=order.find((order)=>order.name==="Tv")
+
+console.log(result);
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

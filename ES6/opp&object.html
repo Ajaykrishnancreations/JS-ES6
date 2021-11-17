@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+
+        
+        function creatPerson (nam){
+    return{
+        nam,
+        age:21,
+
+        msg:function(){
+          let  sms="hai i am "+this.nam+" and i am "+this.age+" old ";
+            console.log(sms);
+        }
+    };
+}
+let ajay=creatPerson("ajai");
+ajay.msg();
+
+let aja=creatPerson("amlu");
+aja.msg();
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

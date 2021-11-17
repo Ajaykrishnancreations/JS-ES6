@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <script>
+        
+//testing the product is avaiable or not 
+// this is ES6
+
+let flipcart=[
+    {id:1,iteam:"mobile",isDeliverable:true},
+    {id:2,iteam:"tv",isDeliverable:true},
+    {id:3,iteam:"watch",isDeliverable:true},
+    {id:4,iteam:"crakers",isDeliverable:false},
+]
+
+let allDeliverable=flipcart.every(function(value){
+    return value.isDeliverable==true;
+});
+console.log(allDeliverable);
+
+//====================================================
+
+let notDeliverable=flipcart.some(function(value){
+    return value.isDeliverable==true;
+});
+console.log(notDeliverable);
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script>
+        
+
+// reduce method in ES6 (.x.)
+// it is used to total the amout very essey
+let shopping=[
+    {id:1,iteam:"mobile",cost:2000},
+    {id:2,iteam:"tv",cost:12000},
+    {id:3,iteam:"watch",cost:10000},
+    {id:4,iteam:"crakers",cost:20000},
+];
+let price=(acc,currentprice)=>acc+currentprice.cost;
+let totalCost=shopping.reduce(price,0);
+console.log(totalCost);
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
